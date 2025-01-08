@@ -8,7 +8,7 @@ local Window = OrionLib:MakeWindow({
 })
 
 local autoFarmEnabled = false
-local antiBanEnabled = true -- Anti-Ban mặc định bật
+local antiBanEnabled = true 
 
 local function getNearestEnemy()
     local player = game.Players.LocalPlayer
